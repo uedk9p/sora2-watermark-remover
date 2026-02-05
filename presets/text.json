@@ -1,0 +1,23 @@
+{
+  "name": "Text Watermark Removal",
+  "description": "Optimized for text overlays and timestamps",
+  "detection": {
+    "method": "ocr_based",
+    "threshold": 0.7,
+    "edge_detection": false,
+    "color_filtering": true,
+    "text_regions_only": true
+  },
+  "removal": {
+    "inpainting_method": "diffusion",
+    "context_radius": 20,
+    "blend_strength": 0.95,
+    "iterations": 2,
+    "text_aware": true
+  },
+  "filters": {
+    "min_text_size": 10,
+    "max_text_size": 100,
+    "font_detection": true
+  }
+}
