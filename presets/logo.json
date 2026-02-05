@@ -1,0 +1,22 @@
+{
+  "name": "Logo Watermark Removal",
+  "description": "Optimized for corner logos and brand watermarks",
+  "detection": {
+    "method": "template_matching",
+    "threshold": 0.8,
+    "edge_detection": true,
+    "color_filtering": false
+  },
+  "removal": {
+    "inpainting_method": "neural",
+    "context_radius": 15,
+    "blend_strength": 0.9,
+    "iterations": 3
+  },
+  "common_positions": [
+    {"x": 10, "y": 10, "w": 150, "h": 50},
+    {"x": -160, "y": 10, "w": 150, "h": 50},
+    {"x": 10, "y": -60, "w": 150, "h": 50},
+    {"x": -160, "y": -60, "w": 150, "h": 50}
+  ]
+}
