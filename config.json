@@ -1,0 +1,16 @@
+{
+  "model_path": "models/watermark_inpainting.pth",
+  "detection_model": "models/detection_yolo.pth",
+  "output_dir": "output",
+  "temp_dir": "temp",
+  "quality": 23,
+  "gpu_enabled": true,
+  "batch_size": 4,
+  "num_workers": 2,
+  "detection_threshold": 0.75,
+  "inpainting_strength": 0.85,
+  "enhancement_level": "high",
+  "preserve_fps": true,
+  "output_codec": "h264",
+  "cpu_fallback": true
+}
